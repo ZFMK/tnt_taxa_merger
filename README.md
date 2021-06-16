@@ -1,4 +1,6 @@
-# Create a database with one merged taxonomy out of various taxonomies from DiversityTaxonNames databases. The script creates a database named TaxaMergerDB in MySQL that is used by the transfer script to upload data from DiversityCollection to the Collection catalogue.
+# tnt_taxa_merger
+
+Create a database with one merged taxonomy out of various taxonomies from DiversityTaxonNames databases. The script creates a database named TaxaMergerDB in MySQL. The MySQL database is used for applying taxonomies to the Specimens in ZFMK's [CollectionCatalogue](https://collections.zfmk.de).
 
 The rules for merging taxonomies are:
 
